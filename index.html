@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarton Fekaz - Building Materials</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: #004d99;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .about {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .about h2 {
+            font-size: 2rem;
+            color: #004d99;
+            margin-bottom: 1rem;
+        }
+
+        .about p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .product {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+        }
+
+        .product h3 {
+            font-size: 1.2rem;
+            color: #004d99;
+            margin-bottom: 0.5rem;
+        }
+
+        .product p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        footer {
+            background-color: #004d99;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sarton Fekaz</h1>
+        <p>Your one-stop shop for all building materials</p>
+    </header>
+
+    <div class="container">
+        <section class="about">
+            <h2>About Us</h2>
+            <p>At Sarton Fekaz, we specialize in providing top-quality roof materials, building supplies, nails, pans, wheelbarrows, and a wide range of essential construction materials. Our mission is to support your projects with durable and reliable products.</p>
+        </section>
+
+        <section class="products">
+            <div class="product">
+                <h3>Roof Materials</h3>
+                <p>Durable and weather-resistant roof solutions for your construction needs.</p>
+            </div>
+            <div class="product">
+                <h3>Building Materials</h3>
+                <p>Top-quality materials for all types of construction projects.</p>
+            </div>
+            <div class="product">
+                <h3>Nails</h3>
+                <p>High-strength nails for secure and long-lasting construction.</p>
+            </div>
+            <div class="product">
+                <h3>Pans & Wheelbarrows</h3>
+                <p>Reliable tools to ease your construction and transport needs.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Sarton Fekaz. All rights reserved.</p>
+    </footer>
+</body>
+</html>
